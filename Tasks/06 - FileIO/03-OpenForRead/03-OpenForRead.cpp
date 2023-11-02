@@ -8,7 +8,7 @@ int main()
     // (i) Open for read with ifstream
     string fn = "myfile.txt";
     ifstream inputStream;
-    inputStream.open(fn);
+    inputStream.open(fn); //open and check
     if (!inputStream.is_open()) {
         cerr << "Cannot open file " << fn << endl;
         return -1;

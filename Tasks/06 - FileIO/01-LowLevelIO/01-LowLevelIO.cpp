@@ -17,7 +17,7 @@ int main()
     //There are two "streams" that are already "open" - and you've been using them all this time!
     //
     // They are known as:
-    //  stdout - "standard out" - this is currenty set to the terminal output
+    //  stdout - "standard out" - this is currently set to the terminal output
     //  stdin  - "standard in"  - currently set to the terminal input
     // 
     // BOTH are type FILE*
@@ -48,7 +48,7 @@ int main()
     fprintf(outputStream, "12345\n");                   // This is the exact same line as before!
     fclose(outputStream);                               // Never try and close stdout!
 
-    // We could also have a stream that connects to other destinatons, such as a device or a network socket
+    // We could also have a stream that connects to other destinations, such as a device or a network socket
 
     // For input, the same concept applies
     FILE* inputStream = stdin;
