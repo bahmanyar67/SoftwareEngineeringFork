@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     //Using C structures
-    Rect_t r1 = CreateRect(2.0, 3.0);
+    Rect_t r1 = CreteRect(2.0, 3.0);
     display(r1);
     setHeight(r1, 10.0);
     display(r1);
